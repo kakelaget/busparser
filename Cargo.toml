@@ -1,0 +1,11 @@
+[package]
+name = "busparser"
+version = "0.1.0"
+authors = ["Håkon Solbjørg <hlsolbjorg@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+postgres = "0.15"
+serde = "1.0"
+serde_derive = "1.0"
+serde-xml-rs = "0.3.0"
